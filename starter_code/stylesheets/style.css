@@ -8,3 +8,142 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* Header styles */
+header {
+    background-color: #540B51;
+    color: #fff;
+    padding: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left;
+    flex-wrap: nowrap;
+    flex-wrap: wrap-reverse;
+    justify-content: left;
+    text-align: left;
+    border-image: round;
+    display: flex-start;
+    justify-content: left; /* Adjust as needed (e.g., flex-start, flex-end) */
+    align-items: left; /* Adjust as needed (e.g., flex-start, flex-end) */
+  
+    
+}
+
+.container {
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Adjust layout for smaller screens here */
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+  /* Further adjustments for smaller screens here */
+}
+
+img {
+  /* display: block; */
+  margin: 0 auto;
+  justify-content: center(); /* Adjust as needed (e.g., flex-start, flex-end) */
+  align-items: left; /* Adjust as needed (e.g., flex-start, flex-end) */
+  margin: auto;
+  max-width: 10%;
+  height: auto;
+  align-self: normal;
+   
+}
+  
+
+  /* Button styles */
+  button {
+    background-color: white
+    color :aqua
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+    align : :end
+  }
+  
+  /* Form styles 
+  form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }*/
+  
+  /* Additional styles for different components */
+  a {
+    text-align: left; /* Center align all a elements */
+    size-adjust: 10px;
+  }
+
+  p {
+    text-align: left; /* Center align all a elements */
+    size-adjust: 10px;
+  }
+  
+  h2 {
+    text-align: left; /* Center align all h2 elements */
+  }  
+
+ 
+/* Reset default margin and padding for all elements */
+body, h1, h2, p, img {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a base font size and line height for the entire page */
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Apply basic styling for the header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Apply basic styling for the main content */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Apply basic styling for the container with images using Flexbox */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+/* Apply basic styling for the section */
+section {
+  margin-top: 20px;
+}
+
+/* Apply basic styling for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+
